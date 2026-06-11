@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Ubah jika backend dideploy di tempat lain
+  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api', // Mengambil URL dari env variable Vercel
 });
 
 // Interceptor untuk menyisipkan token JWT otomatis ke setiap request
