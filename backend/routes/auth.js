@@ -31,7 +31,7 @@ router.post('/register', async (req, res) => {
     res.status(201).json({ message: 'Registrasi berhasil', user: { id: user.id, username: user.username } });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'Terjadi kesalahan pada server.' });
+    res.status(500).json({ message: 'Terjadi kesalahan pada server.', error: error.message, stack: error.stack });
   }
 });
 
