@@ -1,3 +1,6 @@
 node_modules/
-products.db
 .env
+dev.db
+dev.db-journal
+dist/
+.DS_Store
