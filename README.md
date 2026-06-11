@@ -8,3 +8,4 @@
 ---
 
 **Link Repository Git**: [https://github.com/feridarmawan15/RestAPI-sederhana-menggunakan-expressJS](https://github.com/feridarmawan15/RestAPI-sederhana-menggunakan-expressJS)
+**Link Vercel**: [https://rest-api-sederhana-menggunakan-expr-tawny.vercel.app](https://rest-api-sederhana-menggunakan-expr-tawny.vercel.app)
